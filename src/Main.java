@@ -8,6 +8,8 @@ public class Main {
             if (i==2){
                 System.out.print(a[i]+" ");
             } else {
+
+
                 System.out.print(a[i]+",");
             }
         }
