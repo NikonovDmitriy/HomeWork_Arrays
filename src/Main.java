@@ -72,10 +72,10 @@ public class Main {
         System.out.println("\n");
         int[] t = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         for (int g = 0; g < t.length; g++) {
-            if (g % 2 ==0) {
-                t[g]++;
-                System.out.print(t[g] + " ");
-            }
+            if (t[g] % 2 !=0) {
+                t[g]++;}
+            System.out.print(t[g] + " ");
+
         }
     }
 }
