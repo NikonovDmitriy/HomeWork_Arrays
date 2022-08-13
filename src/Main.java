@@ -70,8 +70,8 @@ public class Main {
 
         //4 задача
         System.out.println("\n");
-        int[] t = {1, 2, 3};
-        for (int g = 0; g < 3; g++) {
+        int[] t = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        for (int g = 0; g < 9; g++) {
             if (g % 2 != 1) {
                 System.out.print(t[g]+1+" ");
             }
